@@ -1,0 +1,220 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+<style>
+
+
+body{
+/*background-color;*/
+margin:0;}
+
+/*#foot {
+    background-color:darkgray;
+    color:black;
+   height:250px;         
+    text-align:center;
+   padding:2px;	 	 
+}*/
+
+#footer {
+    background-color:darkblue;
+    color:white;
+    clear:both;           /* this is the code */
+    text-align:center;
+     padding:5px;	 	 
+}
+
+ul {   
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:gray;
+    position:fixed;
+    height:100%;
+    overflow:auto;
+}
+
+
+
+
+li a {    
+    display:block;
+    color: black;
+    
+    padding: 8px 0px 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color:gray; 
+	color:white;
+}
+
+
+.active {
+    background-color:lightgray;
+	color:blue;
+
+}
+
+div.background {
+  background: url(unnamed.jpg) repeat;
+  border:2px solid lightgray ;
+  height:300px;
+
+}
+
+
+div.transbox {
+
+  margin: 60px;
+  background-color: #ffffff;
+  border: 1px solid darkgray;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color:darkblue;
+}
+
+
+input[type=text], select {
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   background-color: lightgray;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+   
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-size: 16px;
+    resize: none;
+    margin-top:10px;
+}
+
+table{ padding-right:140px;}
+
+.ta{ border:0;
+width:55%;
+padding-left:100px;}
+
+
+h2 {
+    letter-spacing: 3px;
+}
+
+h4{line-height:2px;
+}
+
+</style>
+</head>
+<body>
+
+<ul>	
+<li><a href="Home Page.html"> Home </a>
+<li><a href="About.html"> About </a>
+<li><a href="HR Consultancy.html"> HR Consultancy</a>
+<li><a href="Coaching.html">Coaching </a>
+<li><a class="active" href="Contact.html"> Contact</a>
+
+</ul>
+
+
+
+<div style="margin-left:15%;padding:1px 16px;height:1500px;">
+<hr size="3" width="100%" color="blue">
+<div class="background"> <div class="transbox">
+   
+ <h1 align="center">Always be Connect with Rident HR Solutions To Get Best Experiences!! </h1>
+  
+</div> </div>
+
+
+
+<h1 align="center">Let's get in touch</h1>
+
+<h2 align="center" style="color:green;">Feel free to contact us</h2><hr size="3" width="30%" color="red">
+
+<table width="45%" border="0" align="right">
+<tr><td><h2>DROP US A LINE</h2></td></tr>
+<tr><td><h4> Please fill in the form below.</h4></td></tr>
+
+<div>
+ <tr><td><form action="s.html"></td></tr>
+    
+   <tr><td> <label for="fname"> First Name (required)</label></td></tr><br>
+   <tr><td> <input type="text" id="fname" name="firstname"><br></td></tr><br>
+
+    <tr><td><label for="lname"> Last Name (required) </label></td></tr><br>
+    <tr><td><input type="text" id="lname" name="lastname"></td></tr><br>
+
+  <tr><td><label for="ea"> E-mail Address (required) </label></td></tr><br>
+  <tr><td>  <input type="text" id="lname" name="lastname"></td></tr><br>
+
+  <tr><td>  <label for="city"> City (required) </label></td></tr><br>
+   <tr><td> <select id="city" name="city">
+      <option value="amp"> Ampara </option>
+      <option value="col"> Colombo </option>
+      <option value="gal"> Galle </option>
+    </select><br>
+
+<tr><td><label for="qm">Question / message</label></td></tr><br>
+  <tr><td>  <textarea></textarea></td></tr><br>
+  
+    <tr><td><input type="submit" value="Submit"></td></tr>
+  
+    </form>
+
+</div></table>
+	
+<table class="ta" align="left">
+<tr><td><h2>ADDRESS & PHONES</h2></td></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr><td><h4>RIDENT HR SOLUTIONS (pvt)ltd.</h4></td></tr>
+<tr><td><h4>Ringlan 20</h4></td></tr>
+<tr><td><h4>35560 Lummen</h4></td></tr>
+<tr><td><h4>Belgium</h4></td></tr>
+<tr><td><h4>Mobile Tel : +32-474047105</h4></td></tr>
+<tr><td><h4>Direct Line : +32-13555605</h4></td></tr>
+</table>
+  
+
+
+
+</div>
+<div id="foot"></div>
+<div id="footer"> Copyright hajistha.com  </div>
+</body>
+</html>
